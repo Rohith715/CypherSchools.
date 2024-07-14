@@ -1,0 +1,36 @@
+*{
+    font-family: 'Franklin Gothic Medium';
+    font-size: larger;
+}
+#lol{  
+    background-color: aquamarine;
+    text-align: center;
+}
+#gg{
+    background-color: black;
+    text-align: center;
+    color: aquamarine;
+}
+.go{
+    text-align: center;
+    background: #def437;
+}
+p:hover{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+div b{
+    background: rgb(247, 16, 16)
+}
+div +h1{
+    text-align: center;
+    text-size-adjust: 500;
+    color: rgb(241, 191, 11);
+    background-color: black;
+    
+}
+div ~h2{
+    text-align: center;
+    color: blueviolet;
+    background-color: black;
+}
