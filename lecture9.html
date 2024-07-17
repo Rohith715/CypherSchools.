@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color: aqua; background-color: beige;align-items: center; padding-left: 570px;" onmouseover="on(this)" onmouseleave="off(this)">hi there my name is rohith</h1>
+    <button onclick="show(this)" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; border-radius: 10%; margin-left: 680px;">click for time</button>
+    <u><h1 id="sup" style="padding-left: 300px;"></h1></u>
+<script>
+function on(id){
+    id.innerHTML="u are on top of me"
+}
+function off(id){
+    id.innerHTML="U have left"
+}
+function show(id){
+    document.getElementById("sup").innerHTML=new Date();
+}
+</script>
+</body>
+</html>
